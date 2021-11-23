@@ -3,16 +3,16 @@ header {
   background-color: #2c3e50;
 }
 
-.avatar {
+.my-avatar {
   height: 250px;
 }
 
-h1 {
-  font-size: 60px;
+.my-box-img {
+  border-radius: 10px;
 }
 
-.box {
-  border-radius: 10px;
+.altezza-fasulla {
+  height: 700px;
 }
 
 /* ----------------------------------- */
@@ -25,6 +25,19 @@ h1 {
 .my-text-grey {
   color: #333333;
 }
+
+.my-text-tiffany {
+  color: #1abc9c;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
 /*  */
 
 /* ---- Color Classes ---- */
@@ -65,6 +78,29 @@ h1 {
 }
 /*  */
 
+/* ---- Icons ---- */
+
+.icons > * {
+  font-size: 1.3em;
+  width: 3em;
+  text-align: center;
+  line-height: 3em;
+  border: 1px solid white;
+  color: #fff;
+  border-radius: 2em;
+  margin: 0 3px;
+
+  /* per span */
+  display: inline-block;
+}
+
+.fa-circle {
+  font-weight: 400;
+}
+
+.in-span {
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* Star */
 /* hr:not([size]) {
   height: 5px;
@@ -81,6 +117,8 @@ hr {
   font-size: 30px;
   vertical-align: middle;
 } */
+/*  */
+
 /*  */
 
 /* Media */
