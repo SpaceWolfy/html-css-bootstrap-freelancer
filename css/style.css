@@ -1,0 +1,96 @@
+header {
+  height: 90px;
+  background-color: #2c3e50;
+}
+
+.avatar {
+  height: 250px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.box {
+  border-radius: 10px;
+}
+
+/* ----------------------------------- */
+
+/* ---- Text-classes ---- */
+.my-text-white {
+  color: white;
+}
+
+.my-text-grey {
+  color: #333333;
+}
+/*  */
+
+/* ---- Color Classes ---- */
+.my-tiffany-color {
+  background-color: #1abc9c;
+}
+
+.my-red-color {
+  background-color: #ba4b63;
+}
+
+.my-cyan-color {
+  background-color: #1ea4b6;
+}
+
+.my-black-color {
+  background-color: #140f0f;
+}
+
+.my-azure-color {
+  background-color: #1c83c1;
+}
+
+.my-blue-color {
+  background-color: #0e38b5;
+}
+
+.my-brown-color {
+  background-color: #ccb2a3;
+}
+
+.my-lgr-color {
+  background-color: #3a546d;
+}
+
+.my-gr-color {
+  background-color: #2c3e50;
+}
+/*  */
+
+/* Star */
+/* hr:not([size]) {
+  height: 5px;
+}
+
+hr {
+  width: 20%;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fa-star {
+  font-size: 30px;
+  vertical-align: middle;
+} */
+/*  */
+
+/* Media */
+@media screen and (max-width: 765px) {
+  .my-text-section > h1 {
+    font-size: 40px;
+  }
+
+  .my-text-section > h4 {
+    font-size: 18px;
+  }
+}
+/*  */
