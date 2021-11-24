@@ -18,6 +18,10 @@ header {
 /* ----------------------------------- */
 
 /* ---- Text-classes ---- */
+.my-text-section {
+  width: 100%;
+}
+
 .my-text-white {
   color: white;
 }
@@ -101,22 +105,31 @@ h1 {
 .in-span {
   font-family: Arial, Helvetica, sans-serif;
 }
-/* Star */
-/* hr:not([size]) {
-  height: 5px;
-}
 
-hr {
-  width: 20%;
-  border: none;
-  display: inline-block;
-  vertical-align: middle;
+/* Star */
+.star {
+  width: 100%;
 }
 
 .fa-star {
+  margin: 0 3%;
   font-size: 30px;
   vertical-align: middle;
-} */
+}
+
+.star hr {
+  display: inline-block;
+  border-radius: 20px;
+  vertical-align: middle;
+  width: 13%;
+  height: 4px;
+  opacity: 1;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
 /*  */
 
 /*  */
@@ -129,6 +142,10 @@ hr {
 
   .my-text-section > h4 {
     font-size: 18px;
+  }
+
+  .star hr {
+    width: 15%;
   }
 }
 /*  */
