@@ -15,6 +15,18 @@ header {
   height: 700px;
 }
 
+nav {
+  background-color: #2c3e50;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+
 /* ----------------------------------- */
 
 /* ---- Text-classes ---- */
@@ -42,11 +54,40 @@ h1 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+}
+
+::placeholder {
+  color: #2c3e50;
+  font-weight: 600;
+  opacity: 1;
+}
+
+textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+  width: 100%;
+}
+
 /*  */
 
 /* ---- Color Classes ---- */
 .my-tiffany-color {
   background-color: #1abc9c;
+  border: #1abc9c;
 }
 
 .my-red-color {
@@ -125,13 +166,7 @@ h1 {
   height: 4px;
   opacity: 1;
 }
-
-.border-black {
-  border: 1px solid black;
-}
-
 /*  */
-
 /*  */
 
 /* Media */
@@ -143,9 +178,11 @@ h1 {
   .my-text-section > h4 {
     font-size: 18px;
   }
+}
 
-  .star hr {
-    width: 15%;
+@media screen and (max-width: 575px) {
+  .ghostdiv {
+    display: none;
   }
 }
 /*  */
